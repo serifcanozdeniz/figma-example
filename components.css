@@ -1,0 +1,42 @@
+.silver-button{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--neutral-silver);
+    border: 1px solid var(--brand-primary);
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.silver-button p{
+    color: var(--brand-primary);
+    text-align: center;
+    font-size: 14px;
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-20);
+}
+.primary-button{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--brand-primary);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.primary-button p{
+    color: var(--default-white);
+    text-align: center;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-20);
+}
+main{
+    width: 100%;
+    padding: 0 144px;
+}
